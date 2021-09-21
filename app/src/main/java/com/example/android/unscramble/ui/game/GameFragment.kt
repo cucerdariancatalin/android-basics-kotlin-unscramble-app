@@ -48,17 +48,7 @@ class GameFragment : Fragment() {
     ): View {
         // Inflate the layout XML file and return a binding object instance
         binding = DataBindingUtil.inflate(inflater, R.layout.game_fragment, container, false)
-        Log.d(TAG, "GameFragment created/re-created!")
-        Log.d(
-            TAG, "Word: ${viewModel.currentScrambledWord.value} " +
-                    "Score: ${viewModel.score.value} WordCount: ${viewModel.currentWordCount.value}"
-        )
         return binding.root
-    }
-
-    override fun onDetach() {
-        super.onDetach()
-        Log.d(TAG, "GameFragment destroyed!")
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
