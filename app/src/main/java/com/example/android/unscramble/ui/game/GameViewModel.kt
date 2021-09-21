@@ -5,9 +5,14 @@ import androidx.lifecycle.ViewModel
 
 const val TAG = "GameFragment"
 
+/**
+ * ViewModel containing the app data and methods to process the data
+ */
 class GameViewModel : ViewModel() {
 
+    // List of words used in the game
     private val wordsList = mutableListOf<String>()
+
     private lateinit var currentWord: String
 
     private var _score = 0
@@ -53,8 +58,7 @@ class GameViewModel : ViewModel() {
     }
 
     /**
-     * Returns true if the current word count is less than MAX_NO_OF_WORDS.
-     * Updates the next word.
+     * Returns true if the current word count is less than MAX_NO_OF_WORDS
      */
     fun nextWord(): Boolean {
         return if (_currentWordCount < MAX_NO_OF_WORDS) {
@@ -63,10 +67,17 @@ class GameViewModel : ViewModel() {
         } else false
     }
 
+    /**
+     * Increases the game score if the player's word is correct.
+     */
     private fun increaseScore() {
         _score += SCORE_INCREASE
     }
 
+    /**
+     * Returns true if the player word is correct.
+     * Increases the score accordingly.
+     */
     fun isUserWordCorrect(playerWord: String): Boolean {
         if (playerWord.equals(currentWord, true)) {
             increaseScore()
