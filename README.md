@@ -1,48 +1,74 @@
-Unscramble App
-===================================
+# Unscramble App
 
-Starter code for Android Basics codelab - Store the data in a ViewModel
+[![license](https://img.shields.io/github/license/VitasSalvantes/android-basics-kotlin-unscramble-app)](https://github.com/VitasSalvantes/android-basics-kotlin-unscramble-app/blob/master/LICENSE)
+[![current version](https://img.shields.io/badge/current_version-1.0-green)](#Unscramble-App)
 
-Unscramble is  a single player game app that displays scrambled words. To play the game, player has
-to make a word using all the letters from the displayed scrambled word.
+This is a simple unscramble game for Android that was created as part of
+course [Android Basics in Kotlin](https://developer.android.com/courses/android-basics-kotlin/course)
+by Google.
 
-Used in the [Android Basics with Kotlin](https://developer.android
-.com/courses/android-basics-kotlin/course) course.
+## Table of contents
 
+- [How does it work](#How-does-it-work)
+- [Screenshots](#Screenshots)
+- [Technologies](#Technologies)
+- [Development progress](#Development-progress)
+- [Project statistics](#Project-statistics)
+- [How to install](#How-to-install)
+- [How to contribute](#How-to-contribute)
 
-Pre-requisites
---------------
+## How does it work
 
-You need to know:
-- Knowledge about Fragments.
-- How to design a layout in ConstraintLayout.
-- Able to write control flow statements (if / else, when statements).
-- Able to update the UI of the app based on user input.
-- Able to add a click listener to a Button.
+...
 
+## Screenshots
 
-Getting Started
----------------
+*All screenshots are relevant for version 1.0*
 
-1. Download and run the app.
+At the beginning:
 
-License
--------
+<img src="screenshots/screenshot.png" alt="screenshot" style="width:231px;height:500px;">
 
-Copyright (C) 2020 The Android Open Source Project.
+After click on the button in the navigation bar:
 
-Licensed to the Apache Software Foundation (ASF) under one or more contributor
-license agreements.  See the NOTICE file distributed with this work for
-additional information regarding copyright ownership.  The ASF licenses this
-file to you under the Apache License, Version 2.0 (the "License"); you may not
-use this file except in compliance with the License.  You may obtain a copy of
-the License at
+...
 
-  http://www.apache.org/licenses/LICENSE-2.0
+## Technologies
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
-License for the specific language governing permissions and limitations under
-the License.
+- The programming
+  language [Kotlin](https://kotlinlang.org/) ([AdoptOpenJDK version 11.0.10](https://adoptopenjdk.net/))
+  was chosen for development.
 
+- Development was carried out in [Android Studio](https://developer.android.com/studio/).
+
+- [Figma](https://www.figma.com/) was used to prototype the user interface.
+
+- [WakaTime](https://wakatime.com/) was used to track activity.
+
+- [Microsoft To Do](https://todo.microsoft.com/tasks/) was used to schedule tasks.
+
+## Development progress
+
+Development of the project began on **September 17, 2021** and completed on **September 19, 2021**.
+
+*Since I am developing this project mainly alone, I see no reason to
+use [Trello](https://trello.com/).*
+
+## Project statistics
+
+[![wakatime](https://wakatime.com/badge/github/VitasSalvantes/android-basics-kotlin-unscramble-app.svg)](https://wakatime.com/badge/github/VitasSalvantes/android-basics-kotlin-unscramble-app)
+
+See more on [WakaTime](https://wakatime.com/@VitasSalvantes/projects/obvoxhjimc).
+
+## How to install
+
+1. Download the repository code as a zip archive
+2. Unpack the zip archive
+3. Open the unpacked project with Android Studio
+4. Run the project
+
+## How to contribute
+
+The project was created as part of
+course [Android Basics in Kotlin](https://developer.android.com/courses/android-basics-kotlin/course)
+by Google and does not provide for contribution.
