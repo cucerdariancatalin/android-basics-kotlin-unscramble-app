@@ -19,7 +19,9 @@ by Google.
 
 ## How does it work
 
-...
+The user sees the letters from which the word needs to be composed. If the answer is correct, then
+the user gets 20 points. If the answer is incorrect, the user sees a warning and can change the
+answer or skip the question. After 10 questions, the user sees the result.
 
 ## Screenshots
 
@@ -27,11 +29,15 @@ by Google.
 
 At the beginning:
 
-<img src="screenshots/screenshot.png" alt="screenshot" style="width:231px;height:500px;">
+<img src="screenshots/screenshot_start.png" alt="screenshot_start" style="width:231px;height:500px;">
 
-After click on the button in the navigation bar:
+After click on the "SUBMIT" button with an incorrect answer:
 
-...
+<img src="screenshots/screenshot_wrong.png" alt="screenshot_wrong" style="width:231px;height:500px;">
+
+At the end of the game:
+
+<img src="screenshots/screenshot_finish.png" alt="screenshot_finish" style="width:231px;height:500px;">
 
 ## Technologies
 
@@ -49,7 +55,7 @@ After click on the button in the navigation bar:
 
 ## Development progress
 
-Development of the project began on **September 17, 2021** and completed on **September 19, 2021**.
+Development of the project began on **September 20, 2021** and completed on **September 21, 2021**.
 
 *Since I am developing this project mainly alone, I see no reason to
 use [Trello](https://trello.com/).*
